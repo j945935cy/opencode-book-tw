@@ -41,7 +41,7 @@ echo $COLORTERM   # 應輸出 truecolor 或 24bit
 - **明暗雙軌**：`{"dark": "#000", "light": "#fff"}`，跟隨終端機深淺自動切換
 - **none**：透明，交回終端機預設
 
-檔頭掛 `$schema: "https://opencode.ai/theme.json"` 可獲得編輯器補全與驗錯。
+官方文檔的範例會在檔頭掛 `$schema: "https://opencode.ai/theme.json"`；不過該 URL 實測目前回傳 404〔實測〕，欄位留著無妨（當成自我標註），別指望它帶來編輯器輔助。
 
 ## 13.4 鍵位地圖
 
