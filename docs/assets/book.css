@@ -1,0 +1,57 @@
+/* book.css — EPUB／HTML 輸出樣式（繁體中文排版） */
+body {
+  font-family: "AR PL UMing TW", "WenQuanYi Micro Hei", serif;
+  line-height: 1.8;
+  margin: 1.2em;
+  color: #1a1a1a;
+}
+h1 {
+  font-size: 1.7em;
+  border-bottom: 2px solid #444;
+  padding-bottom: 0.3em;
+  margin-top: 1.6em;
+}
+h2 { font-size: 1.35em; margin-top: 1.4em; }
+h3 { font-size: 1.15em; }
+code, pre {
+  font-family: "DejaVu Sans Mono", monospace;
+  font-size: 0.88em;
+}
+pre {
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.8em;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+blockquote {
+  border-left: 4px solid #888;
+  margin-left: 0;
+  padding-left: 1em;
+  color: #444;
+  background: #fafafa;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92em;
+}
+th, td {
+  border: 1px solid #bbb;
+  padding: 0.45em 0.6em;
+  text-align: left;
+}
+th { background: #eee; }
+img { max-width: 100%; }
+
+/* 目錄：移除清單自動編號，標題自帶「第 N 章／N.1」編號 */
+#TOC ul, #TOC ol,
+nav#toc ul, nav#toc ol,
+nav#landmarks ol, nav#page-list ol {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+#TOC > ul > li, nav#toc > ol > li { font-weight: bold; margin-top: 0.5em; }
+#TOC > ul > li ul, nav#toc > ol > li ol { font-weight: normal; }
