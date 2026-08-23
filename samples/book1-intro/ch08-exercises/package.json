@@ -1,0 +1,10 @@
+{
+  "name": "todo-cli",
+  "version": "1.0.0",
+  "description": "第一冊第 8 章練習用：待辦事項命令列小程式（含刻意埋藏的 Bug）",
+  "main": "todo.js",
+  "scripts": {
+    "start": "node todo.js list"
+  },
+  "license": "MIT"
+}
