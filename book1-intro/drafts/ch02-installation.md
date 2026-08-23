@@ -23,6 +23,16 @@ macOS 是本書推薦的主要示範環境，安裝方式有兩種，擇一即�
 brew --version
 ```
 
+沒有的話先裝 Homebrew（一行，官網 <https://brew.sh>），再回來繼續。整條路線如下圖：
+
+```mermaid
+flowchart LR
+    A[brew --version] -->|有版本號| C["brew install<br/>anomalyco/tap/opencode"]
+    A -->|command not found| B[安裝 Homebrew]
+    B --> C
+    C --> D[opencode --version 驗證]
+```
+
 有輸出版本號就直接安裝：
 
 ```bash
@@ -77,13 +87,27 @@ pnpm install -g opencode-ai       # pnpm
 yarn global add opencode-ai       # Yarn
 ```
 
+> **注意**：較新版的 npm 可能顯示 install scripts（postinstall）未列入允許清單的警告。不影響使用；若想消除警告，改執行 `npm install -g --allow-scripts=opencode-ai`。安裝後仍以 `opencode --version` 驗證為準。
+
 ## 2.3 Windows 安裝
 
 Windows 有兩條路：WSL2（本書強烈建議）與原生安裝。
 
 ### 建議路線：WSL2 + Ubuntu
 
-OpenCode 的完整功能在 Linux 環境下表現最好。微軟官方的 WSL 安裝只需在 PowerShell（以系統管理員員執行）輸入：
+OpenCode 的完整功能在 Linux 環境下表現最好。整條路線先看圖：
+
+```mermaid
+flowchart TD
+    A["PowerShell（系統管理員）"] --> B["wsl --install"]
+    B --> C[重新開機]
+    C --> D[首次進入 Ubuntu<br/>設定使用者名稱與密碼]
+    D --> E{提示符長什麼樣？}
+    E -->|"user@machine:~$"（Ubuntu）| F["照 2.2 節 Linux 流程安裝"]
+    E -->|"C:\Users\xxx>"（PowerShell）| G[你還在 Windows 側<br/>開啟 Ubuntu App 再來]
+```
+
+微軟官方的 WSL 安裝只需一行：
 
 ```powershell
 wsl --install

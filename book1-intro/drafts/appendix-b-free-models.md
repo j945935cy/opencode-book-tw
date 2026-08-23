@@ -4,7 +4,19 @@
 
 ## 路線一：完全本地（零元、零外流）
 
-用 [Ollama](https://ollama.com) 在自己機器上跑開源權重：
+用 [Ollama](https://ollama.com) 在自己機器上跑開源權重。整條路線：
+
+```mermaid
+flowchart TD
+    A[安裝 Ollama] --> B{機器規格？}
+    B -->|"記憶體 16GB+ 或<br/>NVIDIA 8GB+"| C["ollama pull qwen3:8b"]
+    B -->|更低規格| D[改用更小模型<br/>或走路線二／三]
+    C --> E[啟動 opencode]
+    E --> F["/models 選擇 ollama 提供的模型"]
+    F --> G[開始使用，資料不出門]
+```
+
+實際指令：
 
 ```bash
 # 安裝 Ollama 後
@@ -40,10 +52,10 @@ opencode                      # 啟動後在 /models 選擇 ollama 提供的模�
 
 ## 選擇決策樹
 
-```text
-程式碼可以上雲端嗎？
-├─ 不能 → 路線一（Ollama 本地）
-└─ 可以 → 用量大嗎？
-    ├─ 小（每天 < 50 次）→ 路線二（免費額度）
-    └─ 大 → 路線三（月費組合）
+```mermaid
+flowchart TD
+    A[程式碼可以上雲端嗎？] -->|不能| B["路線一：Ollama 本地（$0）"]
+    A -->|可以| C{用量大嗎？}
+    C -->|"小（每天 < 50 次）"| D["路線二：雲端免費額度（$0）"]
+    C -->|大| E["路線三：月費組合（約 $10/mo）"]
 ```

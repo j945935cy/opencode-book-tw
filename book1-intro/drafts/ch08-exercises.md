@@ -22,6 +22,13 @@ node todo.js list          # 先跑一次確認環境正常
 
 每個練習都先在終端機該目錄下執行 `opencode`。開始前先 `git init` 並做首次提交，讓每一輪變更都可回退。
 
+> **前置確認**：首次提交需要 Git 身分。若從未設定過，先執行（--global 之後就不必再設）：
+>
+> ```bash
+> git config --global user.name "你的名字"
+> git config --global user.email "you@example.com"
+> ```
+
 ---
 
 ## 練習一：修復 Bug

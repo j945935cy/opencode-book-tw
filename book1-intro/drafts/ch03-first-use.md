@@ -42,6 +42,23 @@ OpenCode 沒有內建模型，第一次啟動必須接上一個「大腦」。�
 
 看到連線成功的提示就完成了。之後 OpenCode 會記住這組金鑰，不會再問第二次。
 
+完整流程的時序如下：
+
+```mermaid
+sequenceDiagram
+    participant U as 你（終端機）
+    participant O as OpenCode
+    participant W as opencode.ai/auth
+    U->>O: 輸入 /connect
+    O->>U: 顯示供應商清單
+    U->>O: 選擇 opencode（Zen）
+    O->>U: 顯示網址 opencode.ai/auth
+    U->>W: 瀏覽器註冊／登入、設定付款
+    W->>U: 產生 API 金鑰
+    U->>O: 貼上金鑰按 Enter
+    O->>U: 顯示連線成功（金鑰存於本機）
+```
+
 > **注意**：回顧第 1 章的三條紀律——貼金鑰的這個輸入框是安全管道，金鑰會被存放在本機的認證設定中，不要把金鑰貼到其他地方。
 
 如果你想用特定大廠的模型（Anthropic、OpenAI、Google 等），在供應商清單選該家、貼上你在該廠後台申請的金鑰即可，流程相同。想完全免金鑰上路的人，附錄 B 有 Ollama 本地模型的快速指引。
@@ -55,6 +72,42 @@ OpenCode 沒有內建模型，第一次啟動必須接上一個「大腦」。�
 ```
 
 你會看到代理開始工作：它翻讀你的專案結構、設定檔與原始碼，然後在專案根目錄產生一個 `AGENTS.md` 檔案。
+
+<!-- SCREENSHOT-PENDING: /init 執行過程的 TUI 畫面（真實截圖或更精緻的文字模擬） -->
+
+終端機裡的過程大致長這樣：
+
+```text
+> /init
+● 正在分析專案結構……
+● 讀取 package.json、src/、tests/……
+● 產生 AGENTS.md
+
+已建立 AGENTS.md（42 行）。內容涵蓋：專案用途、目錄導覽、
+常用指令（dev/build/test）與程式碼慣例。
+```
+
+產出的檔案依專案而異，典型長相：
+
+```markdown
+# AGENTS.md
+
+## 專案概述
+筆記應用後端。Node.js + Fastify + PostgreSQL。
+
+## 目錄導覽
+- src/routes/   HTTP 路由
+- src/services/ 業務邏輯
+- src/db/       資料庫遷移與查詢
+
+## 常用指令
+- npm run dev    啟動開發伺服器
+- npm test       跑測試（不要用 --watch）
+
+## 慣例
+- 新路由一律先寫 schema 驗證
+- 錯誤統一拋給 errorHandler，不要在 route 內 try/catch
+```
 
 ### AGENTS.md 是什麼
 
