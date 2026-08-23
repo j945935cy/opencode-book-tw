@@ -71,7 +71,7 @@ ORDER BY p.time_created;
 
 ## 下章預告 {.unnumbered .unlisted}
 
-單次旅程看完了，下一章拉高到全域：19 張表如何組成一個自洽的領域模型。
+單次旅程看完了，下一章拉高到全域：20 張表如何組成一個自洽的領域模型。
 
 ## 延伸資源 {.unnumbered .unlisted}
 

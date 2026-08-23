@@ -52,7 +52,7 @@
       #text(fill: faint)[\{"healthy":true,"version":"1.18.21"\}]\
       #text(fill: green)[\$] sqlite3 opencode.db ".tables"\
       #text(fill: cyan)[session  message  part  event  todo]\
-      #text(fill: amber)[19 張資料表。]#text(fill: green)[引擎室，開箱。]
+      #text(fill: amber)[20 張資料表。]#text(fill: green)[引擎室，開箱。]
     ]
   ]
 ]
