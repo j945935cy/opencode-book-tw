@@ -12,7 +12,7 @@
 |--------|----------|--------|----------|
 | 自訂指令 | Markdown 提示範本 | `.opencode/commands/*.md` | 只影響一次提示 |
 | Agent Skills | SKILL.md 說明文件 | `.opencode/skills/<名>/` | 讓代理按需載入知識 |
-| 代理設定 | agent frontmatter | `.opencode/agent/*.md` | 改變代理的能力與權限 |
+| 代理設定 | agent frontmatter | `.opencode/agents/*.md` | 改變代理的能力與權限 |
 | 主題 | JSON 色盤 | `.opencode/themes/*.json` | 只改外觀 |
 | MCP 伺服器 | 設定檔條目＋外部程序 | `opencode.json` 的 `mcp` | 給模型新工具（進程級） |
 | 自訂工具 | TS/JS 函式 | `.opencode/tools/*.ts` | 給模型新工具（函式級） |
