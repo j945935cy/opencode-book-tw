@@ -165,18 +165,18 @@ where.exe opencode                # Windows 原生
 
 ---
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - macOS 建議用官方 tap 的 Homebrew 安裝；Linux 用安裝腳本或 pacman；Windows 首選 WSL2。
 - npm 生態系是全平台通用備援。
 - 安裝後用 `opencode --version` 驗證，並記錄版本號作為本書範例的凍結基準。
 - 四大常見錯誤：PATH 沒吃到、執行權限、npm 權限、網路代理。
 
-## 下章預告
+## 下章預告 {.unnumbered .unlisted}
 
 工具裝好了，但還沒有大腦。第 3 章帶你完成首次啟動：接上模型（/connect）、讓 OpenCode 認識你的專案（/init 與 AGENTS.md），並完成你的第一次對話。
 
-## 延伸資源
+## 延伸資源 {.unnumbered .unlisted}
 
 - 官方安裝文件：<https://opencode.ai/docs>
 - WSL 安裝指南：<https://learn.microsoft.com/windows/wsl/install>

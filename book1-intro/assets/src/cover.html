@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="zh-TW">
+<head>
+<meta charset="utf-8">
+<title>OpenCode 入門指南 — 封面</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { background: #0A0E14; }
+  body {
+    width: 1200px; height: 1624px;
+    font-family: "WenQuanYi Micro Hei", "Noto Sans CJK TC", sans-serif;
+    color: #E6EDF3;
+  }
+  .cover {
+    position: relative;
+    width: 1200px; height: 1624px;
+    padding: 76px 72px;
+    display: flex; flex-direction: column;
+    overflow: hidden;
+    background:
+      radial-gradient(950px 620px at 88% -6%, rgba(34, 211, 238, .16), transparent 62%),
+      radial-gradient(820px 700px at -12% 106%, rgba(61, 220, 151, .13), transparent 58%),
+      linear-gradient(180deg, #0A0E14 0%, #0C1320 52%, #0A1018 100%);
+  }
+  .grid {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(148,163,184,.07) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(148,163,184,.07) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(75% 65% at 50% 38%, #000 35%, transparent 100%);
+  }
+  .badge {
+    position: relative;
+    align-self: flex-start;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-size: 24px; letter-spacing: 2px;
+    color: #3DDC97;
+    border: 1.5px solid rgba(61, 220, 151, .55);
+    border-radius: 999px;
+    padding: 10px 26px;
+    background: rgba(61, 220, 151, .07);
+  }
+  .titleblock { position: relative; margin-top: 96px; }
+  .title-en {
+    font-family: "DejaVu Sans Mono", monospace;
+    font-size: 138px; font-weight: 700;
+    letter-spacing: -5px; line-height: 1;
+    color: #FFFFFF;
+    white-space: nowrap;
+  }
+  .title-en .dot { color: #3DDC97; }
+  .caret {
+    display: inline-block;
+    width: 22px; height: 96px;
+    background: #3DDC97;
+    margin-left: 14px;
+    vertical-align: baseline;
+    transform: translateY(10px);
+  }
+  .title-zh {
+    margin-top: 26px;
+    font-size: 196px; font-weight: 900;
+    letter-spacing: 10px; line-height: 1.04;
+    color: #FFFFFF;
+    text-shadow: 0 18px 60px rgba(34, 211, 238, .18);
+  }
+  .subtitle {
+    margin-top: 34px;
+    display: flex; align-items: center; gap: 18px;
+    font-size: 40px; color: #9FB0C3; letter-spacing: 3px;
+  }
+  .subtitle::before {
+    content: "";
+    width: 64px; height: 4px;
+    background: linear-gradient(90deg, #3DDC97, #22D3EE);
+    border-radius: 2px;
+  }
+  .term {
+    position: relative;
+    margin-top: auto;
+    background: rgba(15, 23, 42, .92);
+    border: 1.5px solid rgba(148, 163, 184, .28);
+    border-radius: 20px;
+    box-shadow: 0 34px 90px rgba(0, 0, 0, .55);
+    overflow: hidden;
+  }
+  .term-bar {
+    display: flex; align-items: center; gap: 10px;
+    padding: 20px 24px;
+    background: rgba(148, 163, 184, .09);
+    border-bottom: 1px solid rgba(148, 163, 184, .18);
+  }
+  .term-bar i { width: 16px; height: 16px; border-radius: 50%; }
+  .term-bar i:nth-child(1) { background: #FF5F57; }
+  .term-bar i:nth-child(2) { background: #FEBC2E; }
+  .term-bar i:nth-child(3) { background: #28C840; }
+  .term-title {
+    margin-left: 12px;
+    font-family: "DejaVu Sans Mono", monospace;
+    font-size: 20px; color: #7D8CA3; letter-spacing: 1px;
+  }
+  .term-body {
+    padding: 30px 32px 34px;
+    font-family: "DejaVu Sans Mono", "WenQuanYi Micro Hei", monospace;
+    font-size: 27px; line-height: 2.0;
+    color: #C9D6E4;
+  }
+  .g { color: #3DDC97; } .c { color: #22D3EE; } .m { color: #7D8CA3; } .y { color: #F5D68A; }
+  .footer {
+    position: relative;
+    margin-top: 44px;
+    display: flex; justify-content: space-between; align-items: flex-end;
+    font-size: 27px; color: #93A4B8; letter-spacing: 2px;
+  }
+  .footer .author { font-weight: 700; color: #C9D6E4; font-size: 31px; }
+  .footer .meta {
+    font-family: "DejaVu Sans Mono", monospace;
+    font-size: 21px; color: #66788F; text-align: right; line-height: 1.7;
+  }
+</style>
+</head>
+<body>
+<div class="cover">
+  <div class="grid"></div>
+
+  <div class="badge">OPencode 技術叢書 &nbsp;/&nbsp; 01</div>
+
+  <div class="titleblock">
+    <div class="title-en">opencode<span class="dot">_</span><span class="caret"></span></div>
+    <div class="title-zh">入門指南</div>
+    <div class="subtitle">30 分鐘學會 AI 輔助程式設計</div>
+  </div>
+
+  <div class="term">
+    <div class="term-bar">
+      <i></i><i></i><i></i>
+      <span class="term-title">~/my-project — opencode</span>
+    </div>
+    <div class="term-body">
+      <div><span class="g">$</span> opencode --version</div>
+      <div><span class="m">1.18.21</span></div>
+      <div><span class="g">$</span> opencode</div>
+      <div><span class="c">&gt;</span> 用三句話介紹這個專案在做什麼</div>
+      <div><span class="m">正在讀取專案……已載入 128 個檔案</span></div>
+      <div><span class="y">AGENTS.md</span> 已建立。<span class="g">代理就緒。</span></div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="author">Happy eBook Authors</div>
+    <div class="meta">OPENCODE v1.X&nbsp;&nbsp;·&nbsp;&nbsp;2026<br>BUILD / PLAN / SHIP</div>
+  </div>
+</div>
+</body>
+</html>

@@ -190,17 +190,17 @@ macOS 內建的「終端機.app」勉強可用但不建議；iTerm2 屬於堪用
 
 ---
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - AI 程式輔助工具經歷「自動補全 → 聊天問答 → 代理」三個世代，代理能自主讀碼、改碼、執行指令並依結果迭代。
 - OpenCode 的五大特色：MIT 開源、75+ 供應商自由切換、TUI／桌面／IDE 三形態、隱私優先不存程式碼、免費路線可行。
 - 安裝前三備：作業系統（Windows 用 WSL2）、現代終端機（WezTerm 等 GPU 加速款）、API 金鑰觀念與安全紀律。
 
-## 下章預告
+## 下章預告 {.unnumbered .unlisted}
 
 第 2 章我們實際動手：涵蓋 macOS、Linux、Windows（WSL）三平台的安裝流程，每一個步驟附上驗證指令與常見錯誤排解，目標是五分鐘內讓 `opencode --version` 正確印出版本號。
 
-## 延伸資源
+## 延伸資源 {.unnumbered .unlisted}
 
 - OpenCode 官方網站：<https://opencode.ai>
 - OpenCode 文件：<https://opencode.ai/docs>

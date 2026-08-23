@@ -159,18 +159,18 @@ git commit -m "docs: 新增 AGENTS.md 專案說明"
 
 ---
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - `opencode` 啟動 TUI；`Ctrl+C` 兩次退出。
 - `/connect` 接模型：新手走官方 Zen 路線最省事，金鑰只經由這個流程存放。
 - `/init` 讓代理掃描專案並產生 AGENTS.md，這份「AI 專案說明書」要 commit 進 Git 並持續維護。
 - 第一次對話就能觀察到代理自主讀檔的行為；提問像帶新人：給目標、給背景、一次一件事。
 
-## 下章預告
+## 下章預告 {.unnumbered .unlisted}
 
 能用之後，練好用。第 4 章帶你熟悉 TUI 的每個區塊與快速鍵，學會 @語法精準引用檔案、用拖曳圖片讓代理看懂截圖——這些小技巧累積起來，就是效率差距的來源。
 
-## 延伸資源
+## 延伸資源 {.unnumbered .unlisted}
 
 - 官方入門文件：<https://opencode.ai/docs>
 - AGENTS.md 慣例：<https://agentsmd.net>

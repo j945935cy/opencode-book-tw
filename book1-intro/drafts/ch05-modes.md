@@ -70,17 +70,17 @@ OpenCode 預設有兩個主要代理，按 Tab 鍵即可切換，狀態列會顯
 
 ---
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - Build 全權限負責動工；Plan 唯讀負責偵察與規劃，權限由架構保證而非提示詞。
 - Tab 一鍵切換，狀態列可確認當前模式。
 - 黃金工作流：Plan 提案、來回修正、Build 執行。
 - 任務風險高於五分鐘收拾成本的，一律先 Plan。
 
-## 下章預告
+## 下章預告 {.unnumbered .unlisted}
 
 第 6 章整理你目前零散用過的操作，系統性學會五組必學指令：復原／重做、分享、切換模型，以及查資源用的其他常用指令。
 
-## 延伸資源
+## 延伸資源 {.unnumbered .unlisted}
 
 - 代理說明：<https://opencode.ai/docs/agents>

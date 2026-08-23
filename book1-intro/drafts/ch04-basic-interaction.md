@@ -94,18 +94,18 @@ OpenCode 能直接看圖。把圖片從檔案管理器**拖曳進終端機視窗
 
 ---
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - TUI 四區塊：對話區、輸入框、狀態列、快速鍵提示；五個必備鍵：Enter、Ctrl+C、Esc、Tab、/。
 - 好提問三要素：目標、背景、範圍。「先不要改程式碼」是偵察階段的關鍵句。
 - @語法指名檔案或資料夾，省時間、省額度、防猜錯。
 - 拖曳圖片可讓代理看懂截圖、設計稿與手繪圖。
 
-## 下章預告
+## 下章預告 {.unnumbered .unlisted}
 
 到目前為止你都在「只看不動」的安全模式。第 5 章介紹 OpenCode 最重要的一個觀念：Build 與 Plan 兩種模式的差別，以及「先規劃再動工」的黃金工作流。
 
-## 延伸資源
+## 延伸資源 {.unnumbered .unlisted}
 
 - TUI 使用文件：<https://opencode.ai/docs/tui>
 - 主題設定：<https://opencode.ai/docs/themes>

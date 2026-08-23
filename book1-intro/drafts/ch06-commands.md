@@ -105,18 +105,18 @@ opencode models zen               # 只看特定供應商
 
 ---
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - /undo 回退變更並還原訊息供修改；/redo 反向套回；兩者基於 Git 快照，只管代理的變更。
 - /share 手動產生對話連結，敏感內容勿分享。
 - /models 即時切換模型，建立「任務配模型」的意識。
 - 斜線指令本身免費，對話才計費。
 
-## 下章預告
+## 下章預告 {.unnumbered .unlisted}
 
 指令都熟了，接著練應用。第 7 章聚焦三大閱讀情境：問懂一段程式碼、摸清專案架構、產生說明文件——把代理變成你最強的 code reader。
 
-## 延伸資源
+## 延伸資源 {.unnumbered .unlisted}
 
 - 指令總表：<https://opencode.ai/docs/cli>
 - 分享功能：<https://opencode.ai/docs/share>
