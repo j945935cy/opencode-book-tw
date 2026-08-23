@@ -75,7 +75,7 @@ opencode db "SELECT count(*) FROM credential;"
 
 輸出貼週報或丟給第 9 章的排程代理自動判讀——營運數據本身也該被 AI 盯著。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - `opencode db`＝官方 sqlite3 入口；單條查詢與互動 shell 兩用
 - 營運三查：dbstat 容量、老會話清點、憑證盤點（只看長度）

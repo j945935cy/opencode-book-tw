@@ -85,7 +85,7 @@ permissions:
 | 週期性巡檢（TODO、依賴、測試覆蓋） | schedule＋prompt |
 | 一鍵跑重活（大重構、批量文檔） | workflow_dispatch＋prompt |
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 六事件分兩類：留言驅動（指令在留言裡）與自動驅動（prompt 是任務書）
 - issues/schedule/dispatch 必填 prompt；排程輸出進日誌與 PR

@@ -77,7 +77,7 @@ commands:
 
 不管哪個平台：金鑰一律走平台 Secrets/Variables 並遮罩、代理身分用專用帳號不借真人、write 權限只給真的需要寫入的 pipeline、留言觸發記得限制誰能叫得動它。第 9 章的上線五查在 GitLab 同樣逐條成立。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - GitLab 兩條路：nagyv/gitlab-opencode component（pipeline 驅動）與 Duo 整合（@opencode 留言驅動）
 - component 三步：File 型遮罩變數、include、給 prompt；config_dir 支援 per-job 設定
@@ -86,7 +86,7 @@ commands:
 
 ## 下章預告 {.unnumbered .unlisted}
 
-平台的自動化說完了，別忘了本地端還藏著一顆彩蛋：opencode pr <number>——一行命令把任何 PR 檢出到本地並直接進入會話。下一章收尾第三篇。
+平台的自動化說完了，別忘了本地端還藏著一顆彩蛋：opencode pr〈number〉——一行命令把任何 PR 檢出到本地並直接進入會話。下一章收尾第三篇。
 
 ## 延伸資源 {.unnumbered .unlisted}
 

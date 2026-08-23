@@ -53,7 +53,7 @@ npm login --registry=https://your-company.jfrog.io/api/npm/npm-virtual/
 
 多數中小團隊算下來：開源版＋本書前十七章的紀律已經覆蓋八成需求——Enterprise 買的是最後兩成的集中治理與責任歸屬。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 底線三句話：不儲存資料、代碼歸你、share 是唯一外流例外
 - 導入節奏：免費試用拿數據→談 per-seat；自備 gateway 不收 token 費

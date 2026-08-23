@@ -88,7 +88,7 @@ export 匯出的是**全文**——包含你在會話裡貼過的所有程式碼
 - **歸檔**：里程碑會話 export 進版本控管的 docs/sessions/（脫敏後）
 - **對帳**：每月跑一次 stats 截圖進週報；異常 token 量追到具體 session
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - stats 聚合 session 表：平均與中位數並排看消耗才不失真
 - list 三欄、delete 不可逆；先匯出再刪除

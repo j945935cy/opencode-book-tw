@@ -66,7 +66,7 @@ opencode --pure
 - 出事三步：`--pure` 重現 → 查 log → `upgrade <舊版>` 回退
 - 卸載必先 export 會話＋確認 auth.json 備份
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - upgrade 支持指定版本；團隊釘選、CI 必釘
 - uninstall 三層結構中，資料目錄（db/auth/日誌）是唯一不可再生資產

@@ -40,7 +40,7 @@ opencode attach http://opencode.local:4096
 
 | 入口 | 命令 | 適合 |
 |------|------|------|
-| TUI | `opencode` 或 `attach <url>` | 重度鍵盤流 |
+| TUI | `opencode` 或 `attach 〈url〉` | 重度鍵盤流 |
 | Web | `opencode web`（下一章） | 圍著螢幕討論、遠端瀏覽器 |
 | SDK 腳本 | createOpencodeClient | 自動化與儀表板（第四冊） |
 | IDE | ACP 整合 | 編輯器內嵌 |
@@ -66,9 +66,9 @@ opencode attach http://opencode.local:4096
 | 對方看得到我的會話嗎 | 會話在伺服器端，所有客戶端等權限——介意就別共引擎 |
 | 斷線後進度丟了嗎 | 不會。狀態在伺服器與 DB，重 attach 即恢復 |
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
-- attach <url> 開出指向既有引擎的完整 TUI；長任務跨機接力不斷線
+- attach〈url〉開出指向既有引擎的完整 TUI；長任務跨機接力不斷線
 - --mdns 讓引擎以 opencode.local 在區網報名；公開網路務必關閉或加密碼
 - TUI/Web/SDK/IDE 四入口同源於 client/server 架構
 - 共用引擎三姿態：接力、指揮車、儀表板常駐

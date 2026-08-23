@@ -98,7 +98,7 @@ permissions:
 
 範例裡的 `anomalyco/opencode/github@latest` 是文檔寫法；第 2 章的版本紀律在 CI 同樣適用——正式倉庫建議鎖到具體 tag，升級走 PR 審查而非自動跟隨。model 字串同理：今天能用的型號明天可能退役，CI 裡的 model 是配置不是常數。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - `/oc` 或 `/opencode` 觸發；引擎跑在你自己的 Actions runner，金鑰自備
 - 安裝：github install 一條龍，或 App+workflow+secrets 三步手動

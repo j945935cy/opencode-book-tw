@@ -55,7 +55,7 @@ grep/glob 底層是 ripgrep，預設尊重 .gitignore〔文件〕——node_modu
 
 四層由硬到軟。團隊治理的黃金順序：能靠 permission 解決就不要換工具實作，能靠工具解決就不要只靠提示詞——越硬的約束越不依賴模型的自覺。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 十三支內建工具；edit 一鍵統管 write/apply_patch 所有寫入
 - lsp 工具需實驗旗標，九種語意操作是代碼庫導航正解

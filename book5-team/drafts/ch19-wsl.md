@@ -62,7 +62,7 @@ WSL 環境特有的症狀速查：
 - **路徑分隔線炸裂**：外掛裡手寫 \ 或 / 都要改成 path.join（第四冊 ch3 的提醒在此最常兌現）
 - **瀏覽器打不開 Web**：WSL 內起服務、Windows 側開 http://localhost:port 通常自動轉發；不轉發就用 WSL IP
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - WSL 是官方推薦的 Windows 使用方式：效能、終端、工具鏈三贏
 - 三架構：純 WSL 最順、serve+App/Web 混合要配密碼、跨 FS 開發有性能稅

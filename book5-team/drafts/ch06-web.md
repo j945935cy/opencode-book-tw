@@ -66,7 +66,7 @@ opencode attach http://localhost:4096   # 同一台引擎的 TUI 入口
 
 最後一列再強調一次：0.0.0.0 加無密碼等於把你的代碼庫與供應商金鑰攤在網路上。Web 的便利以「記得設密碼」為前提。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - opencode web 一行啟動：本機隨機埠＋自動開瀏覽器
 - 三旋鈕上網路：--hostname 0.0.0.0、OPENCODE_SERVER_PASSWORD、--mdns

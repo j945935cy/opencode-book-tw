@@ -64,7 +64,7 @@ export OPENCODE_SERVER_PASSWORD=...   # 對外暴露時才需要
 
 連同第 2 章的版本釘選、第 6 章的 server 區塊，湊成新人 Day 1 的完整環境包——這正是第五篇 rules 分層的前奏。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 標準三變數：HTTPS_PROXY／HTTP_PROXY／NO_PROXY；localhost 不排除會迴圈打結
 - 帳密進 URL 但不進版控；NTLM/Kerberos 改走 LLM Gateway

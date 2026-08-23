@@ -45,7 +45,7 @@ Zen 的 workspace（beta 期間免費）就是為本章讀者準備的〔文件�
 
 大多數模型遵循零留存政策、不用你的資料訓練〔文件〕。例外集中在部分免費模型（試用期收集回饋）與 OpenAI/Anthropic 官方 API 的 30 天請求留存。合規敏感的團隊把第 17 章 enterprise 政策與此處的 workspace 模型開關疊起來用——禁用的模型從源頭就叫不通。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - Zen＝驗證過的模型閘道：測試→與供應商校準→基準化，成本價出售、零鎖定
 - 三步啟用：auth 頁取 key、TUI /connect、/models 看清單；ID 格式 opencode/<model-id>

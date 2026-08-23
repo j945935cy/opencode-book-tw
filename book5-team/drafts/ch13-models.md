@@ -55,7 +55,7 @@ OpenCode 不鎖供應商，團隊常見的多源組合：
 2. **季度巡檢**：把「核對 models 清單與退役公告」排進例行維運（第 9 章配方三正好可以讓代理自己幹）
 3. **升級靠 A/B**：新旗艦上市別全隊盲切——兩週內讓半數成員雙軌使用，stats 數據說話
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 三處查清單：models 命令、/models、config.providers()；背後同一份快取
 - provider/model 語法貫穿設定、代理、指令、CLI 四層，後者覆蓋前者
