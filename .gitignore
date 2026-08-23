@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Build artifacts
+node_modules/
+dist/
+build/
+*.pdf
+*.epub
+output/
+
+# Environment & secrets
+.env
+.env.local
+*.key
+
+# Pandoc / Typst temp
+*.aux
+*.log
+*.toc
