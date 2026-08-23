@@ -58,7 +58,7 @@ ACP 是 Agent Client Protocol：編輯器（客戶端）與代理（伺服器）
 3. **降級路徑**：實驗功能缺席時退回穩定替代（如 WorkspaceAdapter 不在就用本地目錄）
 4. **上游雷達**：盯著 release notes 與 d.ts diff——第三冊教的「schema 就躺在磁碟上」在外掛世界同樣成立
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - WorkspaceAdapter 五法定義工作區生命週期；remote target 打開雲端引擎想像
 - ACP 讓你的代理成為編輯器原生功能；內核是把 SDK prompt 包成協議伺服器

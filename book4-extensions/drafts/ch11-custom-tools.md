@@ -120,7 +120,7 @@ export default tool({
 
 團隊既有的 Python 分析腳本、Rust 小工具、公司 CLI，全部可以這樣「借殼」變成模型的工具。錯誤處理建議：非零結束碼時回傳人話說明而非丟例外，模型才有機會自我修正重試。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - `.opencode/tools/<檔名>.ts`；多重導出名為 `<檔名>_<導出名>`；同名可取代內建
 - args 用 `tool.schema`（即 zod），describe 是提示工程

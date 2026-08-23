@@ -59,7 +59,7 @@ OpenCode 讀兩份 JSON 設定〔實測〕：
 4. 是 npm 外掛嗎？去 `~/.cache/opencode/packages/` 看裝到了沒
 5. 還不行？開 `--print-logs --log-level DEBUG` 重啟，看載入了什麼（第三冊第 19 章的 logfmt 解讀法在這裡派上用場）
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 核心行為住 `opencode.json`、介面偏好住 `tui.json`；全域先讀、專案後讀且後者勝
 - npm 外掛由 Bun 在啟動時自動安裝，實際落在 `~/.cache/opencode/packages/<名>@<版>/`，各帶獨立依賴樹

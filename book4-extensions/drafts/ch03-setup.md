@@ -88,7 +88,7 @@ export const EventProbe = async ({ client }) => {
 
 外掛發布前的最後一道檢查：確認你引用的鉤子在目標讀者的 CLI 版本上存在。`experimental.*` 開頭的六個鉤子尤其如此——它們可能在任何小版本被改名或移除。商業等級的外掛請在 README 寫死支援的版本區間，消費端則避免無腦 `@latest`（第 12 章細談）。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 本地外掛的第三方依賴：設定目錄放 `package.json`，啟動時 Bun 自動安裝
 - `@opencode-ai/plugin` 提供全部型別；d.ts 是最權威的一手文件

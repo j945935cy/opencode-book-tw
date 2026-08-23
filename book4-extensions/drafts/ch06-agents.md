@@ -101,7 +101,7 @@ opencode agent create
 
 它會問你存全域還是專案、描述用途、代擬系統提示與識別名、勾選要開放的權限（沒勾的全部拒絕），最後產出 Markdown 檔。把它當起點，之後手工微調 permission 物件。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - mode 定身分；hidden 讓內部子代理隱形；內建已有五明三暗八支代理
 - permission 三態＋物件細控＋最後符合者勝，覆蓋內建、MCP 與自訂工具

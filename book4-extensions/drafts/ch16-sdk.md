@@ -118,7 +118,7 @@ try {
 
 注意預設 responseStyle 下每個結果都要過一道 `.data`——再次提醒 16.2 的選擇。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - `createOpencode()` 起新引擎（腳本／CI），`createOpencodeClient()` 連舊引擎（日常）
 - 預設 `responseStyle: "fields"` 且不丟例外——結果取 `.data`、錯誤查 `.error`，或改用 data＋throwOnError

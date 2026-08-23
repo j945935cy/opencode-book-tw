@@ -84,7 +84,7 @@ d.ts 裡以 `experimental.` 開頭的六個鉤子是進階玩家的大招〔實�
 
 把本章鉤子合起來，可以做出一支「治理外掛」：`chat.headers` 加租戶標頭、`chat.params` 對非白名單代理鎖溫度、`shell.env` 注入憑證、`system.transform` 附合規聲明。四個鉤子各十行，疊出一層完整的企業政策皮——這正是外掛相對於零散腳本的价值所在。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - `chat.message` 登記入場；`chat.params`／`chat.headers` 改 LLM 請求的參數與標頭
 - `shell.env` 注入範圍涵蓋模型工具與使用者終端的全部 shell 執行

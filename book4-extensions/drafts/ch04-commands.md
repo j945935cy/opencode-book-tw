@@ -82,7 +82,7 @@ description: 審查元件
 
 因為指令就是倉庫裡的檔案，它天然支援版本控與 code review。把 `.opencode/commands/` 提交進倉庫，全隊共用同一套 `/deploy-check`、`/security-scan`、`/write-changelog`；有人改進了提示，PR 審查一眼看清改了哪句話。這是把「AI 使用經驗」資產化的最輕量做法——第二冊教的是怎麼用代理，這裡你開始為團隊**設計**代理的工作流程。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 檔名即指令名；專案 `.opencode/commands/` 或全域 `~/.config/opencode/commands/`
 - 範本三種插值：`$ARGUMENTS`／`$1..$n` 參數、`!`\`cmd\`` 命令輸出注入、`@path` 檔案引用

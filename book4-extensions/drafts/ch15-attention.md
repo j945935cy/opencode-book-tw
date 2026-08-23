@@ -61,7 +61,7 @@ TUI 外掛側可以直接操作注意力相關 API——典型場景是監控型
 
 提醒系統的失效模式不是太少而是太多。三條節制建議：`blurred` 為預設檔，別輕易改 `always`；六種音效保留語意差異，別全部換成同一個聲音（分級警報的價值就在聽得出輕重）；自製通知走彙總而非轉發——十個子代理完工各響一次是災難，彙成一句「3/10 完成、1 個待批准」才是資訊。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 觸發檔位 always／focused／blurred，依終端機焦點狀態判定
 - 六種語意音效：default/question/permission/error/done/subagent_done

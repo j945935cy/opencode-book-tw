@@ -93,7 +93,7 @@ export const Typed: Plugin = async (input) => {
 
 啟動時所有來源的外掛一起載入：全域設定的 npm 清單 → 專案設定的 npm 清單 → 全域 plugins 目錄 → 專案 plugins 目錄〔文件〕。同名同版的 npm 套件只載一次；本地檔與 npm 套件即使同名也各自載入。所有同類鉤子**依序執行**——兩支外掛都想改同一個 `output` 時，載入序靠後的贏。把最關鍵的改寫放在專案層目錄，就是利用這條規則讓它排在最後。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 外掛＝匯出具名非同步函式的模組，一檔多掛；`.opencode/plugins/` 自動載入
 - 資源包七把鑰匙：project/directory/worktree/client/$/serverUrl/experimental_workspace

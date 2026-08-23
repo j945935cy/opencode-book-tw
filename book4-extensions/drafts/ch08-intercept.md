@@ -96,7 +96,7 @@ export const AutoApprover: Plugin = async ({ worktree }) => ({
 
 依載入序規則（第 7 章 7.5），專案層的這幾支會排在全域外掛之後執行——防護邏輯最後說了算，正是我們要的位置。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - `tool.execute.before`：throw 即封鎖（.env 保護），改 `output.args` 即改寫（命令消毒）
 - `tool.execute.after` 加工輸出與 metadata；`tool.definition` 改的是模型看到的描述

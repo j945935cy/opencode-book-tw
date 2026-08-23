@@ -84,7 +84,7 @@ slots 是 TUI 外掛設計裡最優雅的部分：宿主介面預先留好若干
 2. **漸進上線**：先用純 toast＋dialog 做互動閉環，確認生命週期無誤，再上自訂渲染樹
 3. **dispose 必寫**：TUI 外掛持有渲染節點與鍵盤綁定，不清理會殘影或攔鍵——每次 register 都配對一次 cleanup
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - TuiPluginModule 同時裝 server 鉤子與 tui 函式；meta 報安裝狀態
 - 七類能力：路由、鍵盤、指令、四種對話框、toast、slots、側欄；底層 @opentui/core

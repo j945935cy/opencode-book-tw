@@ -100,7 +100,7 @@ frontmatter 之後的內文完全自由格式。實務上「我做什麼／何�
 3. 名稱在所有位置間唯一
 4. 沒被 `deny` 權限擋掉
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - 六處搜尋路徑（opencode／claude／agents 慣例 × 專案／全域），專案層向上走到工作樹根
 - name 必須符合正則且等於資料夾名；description 決定命中率

@@ -88,7 +88,7 @@ await client.tui.showToast({
 2. **團隊看板**：`opencode serve --hostname 0.0.0.0 --port 4096` 對內網開放（記得配 OPENCODE_SERVER_PASSWORD，第三冊講過基本授權），儀表板彙總多台引擎
 3. **Web 化**：同一套事件流推到瀏覽器（SSE 直通），手機也能看團隊代理群的心跳
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - `event.subscribe()` 回傳非同步迭代器，外部進程可完整旁觀事件流
 - 三十行即可做出多會話即時狀態板；升級靠分組與 TUI 框架

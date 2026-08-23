@@ -95,7 +95,7 @@ echo $COLORTERM   # 應輸出 truecolor 或 24bit
 
 主題做完跑一遍這些畫面再收工：diff 檢視（四色是否分明）、Markdown 渲染的標題與行內碼、權限詢問對話框（error/warning 是否醒目）、淺色終端下的整體可讀性。主題是給眼睛用的，最終裁判不是 schema 而是你的疲勞度。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - truecolor 是前提；十一種以上內建主題兜底，`/theme` 或 tui.json 切換
 - 四層覆蓋序：內建 → 使用者層 → 專案根 → 當前目錄

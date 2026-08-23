@@ -115,7 +115,7 @@ await client.session.unrevert({ path: { id } })
 
 批次腳本的標準防護：每個危險步驟後跑測試，不過就 revert 到該步之前、換提示詞重試。自動化不再怕「改壞了」，因為時間旅行是 API。
 
-## 本章摘要
+## 本章摘要 {.unnumbered .unlisted}
 
 - create→prompt→messages→share/summarize 是單會話閉環；abort 可中斷
 - noReply 注入上下文不觸發回覆，外部餵料的正門
