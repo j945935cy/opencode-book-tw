@@ -35,9 +35,9 @@
 
 | 概念 | 目錄 | 資料表 | API |
 |------|------|--------|-----|
-| 快照 | snapshot/<hash>/ | — | revert 間接使用 |
+| 快照 | snapshot/〈hash〉/ | — | revert 間接使用 |
 | 工具輸出 | tool-output/tool_* | part（指標） | message 詳情 |
 | MCP | — | — | GET/POST /mcp |
 | LSP | — | — | GET /lsp |
-| 插件資料 | storage/<名>/ | — | — |
+| 插件資料 | storage/〈名稱〉/ | — | — |
 | 日誌 | log/opencode.log | event（廣播面） | POST /log、GET /event |
