@@ -23,7 +23,7 @@
   ]
 ]
 
-#place(top + left, dx: 1.85cm, dy: 5.7cm)[
+#place(top + left, dx: 1.85cm, dy: 4.3cm)[
   #text(font: "DejaVu Sans Mono", weight: 700, size: 58pt, tracking: -1.8pt, fill: white)[
     opencode#h(2pt)#text(fill: green)[\_]#box(width: 8pt, height: 34pt, fill: green, baseline: 9pt)
   ]
@@ -37,7 +37,7 @@
   #text(size: 15.5pt, tracking: 1.5pt, fill: dim)[從代理迴圈到生產級 AI 系統的可觀察設計]
 ]
 
-#place(bottom + left, dx: 1.85cm, dy: -6.6cm)[
+#place(bottom + left, dx: 1.85cm, dy: -5.4cm)[
   #block(width: 12.3cm, fill: rgb("#0F172A"), stroke: 0.9pt + rgb("#94A3B8").transparentize(72%), radius: 10pt, clip: true)[
     #box(width: 100%, inset: (x: 14pt, y: 10pt), fill: white.transparentize(92%))[
       #set text(font: "DejaVu Sans Mono", size: 8.5pt, fill: rgb("#7D8CA3"))
