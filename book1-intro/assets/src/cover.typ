@@ -5,12 +5,12 @@
 #let cyan = rgb("#22D3EE")
 #let amber = rgb("#F5D68A")
 
-#set page(width: 17cm, height: 23cm, margin: 0pt)
+#set page(width: 16cm, height: 24cm, margin: 0pt)
 #set text(lang: "zh", region: "TW", font: "WenQuanYi Micro Hei")
 
 #place(rect(width: 100%, height: 100%, fill: gradient.linear(angle: 180deg, rgb("#0A0E14"), rgb("#0C1320"), rgb("#0A1018"))))
-#place(dx: 4cm, dy: -5cm, circle(radius: 7cm, fill: gradient.radial(cyan.transparentize(84%), white.transparentize(100%))))
-#place(dx: -4cm, dy: 17cm, circle(radius: 7cm, fill: gradient.radial(green.transparentize(87%), white.transparentize(100%))))
+#place(dx: 3.5cm, dy: -5cm, circle(radius: 7cm, fill: gradient.radial(cyan.transparentize(84%), white.transparentize(100%))))
+#place(dx: -4cm, dy: 18cm, circle(radius: 7cm, fill: gradient.radial(green.transparentize(87%), white.transparentize(100%))))
 
 #for i in range(1, 15) {
   place(line(start: (i * 1.2cm, 0%), end: (i * 1.2cm, 100%), stroke: 0.4pt + white.transparentize(95%)))
@@ -23,7 +23,7 @@
   ]
 ]
 
-#place(top + left, dx: 1.85cm, dy: 5.4cm)[
+#place(top + left, dx: 1.85cm, dy: 4.3cm)[
   #text(font: "DejaVu Sans Mono", weight: 700, size: 58pt, tracking: -1.8pt, fill: white)[
     opencode#h(2pt)#text(fill: green)[\_]#box(width: 8pt, height: 34pt, fill: green, baseline: 9pt)
   ]
@@ -37,8 +37,8 @@
   #text(size: 15.5pt, tracking: 1.5pt, fill: dim)[30 分鐘學會 AI 輔助程式設計]
 ]
 
-#place(bottom + left, dx: 1.85cm, dy: -6.6cm)[
-  #block(width: 13.3cm, fill: rgb("#0F172A"), stroke: 0.9pt + rgb("#94A3B8").transparentize(72%), radius: 10pt, clip: true)[
+#place(bottom + left, dx: 1.85cm, dy: -5.4cm)[
+  #block(width: 12.3cm, fill: rgb("#0F172A"), stroke: 0.9pt + rgb("#94A3B8").transparentize(72%), radius: 10pt, clip: true)[
     #box(width: 100%, inset: (x: 14pt, y: 10pt), fill: white.transparentize(92%))[
       #set text(font: "DejaVu Sans Mono", size: 8.5pt, fill: rgb("#7D8CA3"))
       #h(0pt)#box(width: 8pt, height: 8pt, radius: 4pt, fill: rgb("#FF5F57")) #h(5pt)
@@ -48,21 +48,19 @@
     ]
     #block(inset: (x: 16pt, y: 12pt))[
       #set text(font: ("DejaVu Sans Mono", "WenQuanYi Micro Hei"), size: 11.5pt, fill: rgb("#C9D6E4"))
-      #text(fill: green)[\$] opencode --version\
-      #text(fill: faint)[1.18.21]\
-      #text(fill: green)[\$] opencode\
-      #text(fill: cyan)[>] 用三句話介紹這個專案在做什麼\
-      #text(fill: faint)[正在讀取專案……已載入 128 個檔案]\
-      #text(fill: amber)[AGENTS.md] 已建立。#text(fill: green)[代理就緒。]
+      #text(fill: green)[\$] curl -fsSL opencode.ai/install | bash\
+      #text(fill: cyan)[&gt;] opencode 1.18.21 安裝完成\
+      #text(fill: faint)[● 你好，我想做一個網頁]\
+      #text(fill: amber)[第一句話，]#text(fill: green)[引擎，啟動。]
     ]
   ]
 ]
 
 #place(bottom + left, dy: -1.55cm, dx: 1.85cm)[
-  #block(width: 13.3cm)[
+  #block(width: 12.3cm)[
   #grid(columns: (auto, 1fr), column-gutter: 0pt,
     align(left)[#text(size: 13pt, weight: 700, tracking: 1pt, stroke: 0.25pt + rgb("#C9D6E4"), fill: rgb("#C9D6E4"))[Happy eBook Authors]],
-    align(right)[#text(font: "DejaVu Sans Mono", size: 8.5pt, tracking: 1pt, fill: faint)[OPENCODE v1.X · 2026\ BUILD / PLAN / SHIP]]
+    align(right)[#text(font: "DejaVu Sans Mono", size: 8.5pt, tracking: 1pt, fill: faint)[OPENCODE v1.X · 2026\ INSTALL / ASK / CODE]]
   )
 ]
 ]
