@@ -79,7 +79,7 @@ import { tool } from "@opencode-ai/plugin"
 
 - 外掛發布＝普通 npm 套件：具名導出＋package.json＋publish
 - 版本字串決定升級節奏：@latest 嘗鮮、區間給團團隊、釘死給可重現環境
-- 快取實測位於 ~/.cache/opencode/packages/<名>@<版>/，Bun 啟動時自動安裝
+- 快取實測位於 `~/.cache/opencode/packages/<名>@<版>/`，Bun 啟動時自動安裝
 - 本地開發依賴放設定目錄的 package.json；@opencode-ai/plugin 提供型別與 tool()
 - 載入順序四層依序執行；同名同版去重、本地與 npm 各自載入
 
